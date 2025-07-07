@@ -1,6 +1,6 @@
 <template>
   <div :title="cardTitle" :class="['lxp-course-card', cardClass]" @click="onClick">
-    <div class="lxp-course-card--div" :class="{ 'resources': tabText == 'resources' || tab == 'resources' }">
+    <div class="lxp-course-card--div test" :class="{ 'resources': tabText == 'resources' || tab == 'resources' }">
       <div
         :class="['lxp-course-card__img', headerClass, { resources: tabText === 'resources' || tab === 'resources' }]">
         <b-img :src="cardImg" alt="course image" class="lxp-cc__img"
