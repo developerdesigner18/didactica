@@ -2,7 +2,7 @@
   <div id="app">
     <b-tabs content-class="mt-3" lazy>
       <b-tab title="Partners" active>
-        {{ urlObj }}
+        {{ urlObj }}65544554548954984848
         <!-- <learning-space
           :isEdit="isEdit"
           :spaceObj="obj"
