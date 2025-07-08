@@ -3,7 +3,7 @@
     <b-tabs content-class="mt-3" lazy>
       <b-tab title="Partners" active>
         {{ urlObj }}65544554548954984848
-        <!-- <learning-space
+        <learning-space
           :isEdit="isEdit"
           :spaceObj="obj"
           :token="token"
@@ -19,7 +19,7 @@
           filterResourcesListURL="http://course-discovery-discovery-labs-staging.apps.develop.lxp.academy.who.int/api/v3/tag_filter/?tags=[8]&language=en&page_size=20&page=1"
           @click-empty-state-cta="onEmptyStateCTA"
           @card-click="onCardClick"
-        ></learning-space> -->
+        ></learning-space>
       </b-tab>
       <b-tab title="CourseOverviewEditor">
         <course-overview
